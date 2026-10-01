@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Official website for M/S Best Quality Dryfruits & Masala House, Ujjain",
   "scripts": {
+    "build": "echo Static site ready",
     "start": "node dev-server.js",
     "dev": "node dev-server.js"
   },
