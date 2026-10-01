@@ -2003,6 +2003,83 @@
       }
     }
 
+    /* Footer Watermark Badge */
+    .footer-watermark-row {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(197, 160, 89, 0.15);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .footer-watermark-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 18px;
+      background: rgba(14, 36, 25, 0.85);
+      border: 1px solid rgba(197, 160, 89, 0.4);
+      border-radius: 9999px;
+      text-decoration: none;
+      color: #D4AF37;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .footer-watermark-pill:hover {
+      background: rgba(22, 54, 38, 0.95);
+      border-color: rgba(212, 175, 55, 0.8);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(197, 160, 89, 0.25);
+      color: #FFFFFF;
+    }
+
+    .watermark-logo-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      background: linear-gradient(135deg, #C5A059 0%, #E8D399 50%, #B38F46 100%);
+      color: #0E2419;
+      font-weight: 800;
+      font-size: 0.72rem;
+      border-radius: 5px;
+      flex-shrink: 0;
+    }
+
+    .watermark-pill-divider {
+      width: 1px;
+      height: 14px;
+      background: rgba(197, 160, 89, 0.35);
+    }
+
+    .watermark-pill-label {
+      color: #CBD5E1;
+      font-weight: 500;
+    }
+
+    .watermark-pill-label strong {
+      color: #F3E5AB;
+      font-weight: 700;
+    }
+
+    .watermark-ig-icon {
+      color: #C5A059;
+      transition: transform 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .footer-watermark-pill:hover .watermark-ig-icon {
+      transform: scale(1.15);
+      color: #E8D399;
+    }
+
+
     /* ==========================================================================
        MOBILE FIXED BOTTOM CTA BAR
        ========================================================================== */
@@ -3207,11 +3284,21 @@
           © 2026 M/S Best Quality Dryfruits &amp; Masala House. All rights reserved.
         </div>
         <div>
-          Managed &amp; Powered by <a href="https://www.instagram.com/nexora.scale" target="_blank" rel="noopener noreferrer" style="color: var(--gold-light); text-decoration: none; font-weight: 600;">@nexora.scale</a>
-        </div>
-        <div>
           Fawara Chowk, near Doulatganj, Ujjain, Madhya Pradesh
         </div>
+      </div>
+
+      <div class="footer-watermark-row">
+        <a href="https://www.instagram.com/nexora.scale" target="_blank" rel="noopener noreferrer" class="footer-watermark-pill" aria-label="Managed and Powered by Nexora Scale">
+          <span class="watermark-logo-badge">N</span>
+          <span class="watermark-pill-divider"></span>
+          <span class="watermark-pill-label">Managed &amp; Powered by <strong>@nexora.scale</strong></span>
+          <svg class="watermark-ig-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
       </div>
     </div>
   </footer>
