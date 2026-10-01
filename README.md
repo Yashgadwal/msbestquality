@@ -1,4 +1,4 @@
-﻿# M/S Best Quality Dryfruits & Masala House 🌰✨
+# M/S Best Quality Dryfruits & Masala House 🌰✨
 
 > Modern, conversion-focused single-page website for **M/S Best Quality Dryfruits & Masala House**, located at Fawara Chowk, near Doulatganj, Ujjain, Madhya Pradesh.
 
