@@ -2,11 +2,9 @@
   "name": "msbestquality",
   "version": "1.0.0",
   "description": "Official website for M/S Best Quality Dryfruits & Masala House, Ujjain",
-  "main": "server.js",
   "scripts": {
-    "build": "echo Static site ready",
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node scripts/preview.js",
+    "dev": "node scripts/preview.js"
   },
   "keywords": [
     "dry-fruits",
