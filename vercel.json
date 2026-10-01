@@ -1,4 +1,15 @@
 {
-  "": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "functions": {
+    "server.js": {
+      "includeFiles": "images/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/review",
+      "destination": "/review.html"
+    }
+  ]
 }
