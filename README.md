@@ -9,7 +9,8 @@
 - **Address:** 55, Fawara Chowk, near Doulatganj, Kharakua Colony, Ujjain, Madhya Pradesh 456010, India
 - **Phone:** [+91 88393 15887](tel:+918839315887)
 - **Instagram:** [@ms_best_quality](https://www.instagram.com/ms_best_quality/)
-- **Google Maps:** [View on Google Maps](https://share.google/gzS1QF0zgvS4xpSxy)
+- **Google Profile & Reviews:** [M/S Best Quality on Google](https://share.google/IMnqjSCB6lR9pgXvC)
+- **Review Page:** [Rate Your Experience](review.html) (`/review`)
 - **Timings:** Monday – Saturday: 11:00 AM – 8:00 PM (Sunday Closed)
 - **Google Rating:** 4.9 ★
 
