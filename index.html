@@ -2303,58 +2303,6 @@
     .footer-credit-text a:hover {
       color: #FFFFFF;
     }
-
-    /* Floating corner watermark */
-    .floating-watermark {
-      position: fixed;
-      bottom: 84px;
-      right: 18px;
-      background: rgba(14, 36, 25, 0.92);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(197, 160, 89, 0.45);
-      color: #E8DCC4;
-      padding: 6px 14px;
-      border-radius: 999px;
-      font-size: 0.76rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      z-index: 990;
-      text-decoration: none;
-      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
-      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .floating-watermark:hover {
-      background: rgba(14, 36, 25, 1);
-      border-color: var(--gold);
-      color: #FFFFFF;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
-    }
-
-    .watermark-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: #C5A059;
-      box-shadow: 0 0 6px #C5A059;
-      animation: pulseDot 2s infinite ease-in-out;
-    }
-
-    @keyframes pulseDot {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.85); }
-    }
-
-    @media (min-width: 992px) {
-      .floating-watermark {
-        bottom: 20px;
-        right: 20px;
-      }
-    }
-
   </style>
 </head>
 <body>
@@ -2402,7 +2350,7 @@
   <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
     <div class="mobile-menu-header-chip">
       <span>📍</span>
-      <span>55, Fawara Chowk, near Doulatganj, Ujjain</span>
+      <span>55, Fawara Chowk, near Doulatganj, Kharakua Colony, Ujjain</span>
     </div>
     
     <a href="#home" class="mobile-link">
@@ -2913,7 +2861,7 @@
           </div>
           <h3 class="why-card-title">Convenient Location</h3>
           <p class="why-card-desc">
-            Easy to find at 55, Fawara Chowk near Doulatganj, right in the heart of Ujjain's central marketplace.
+            Easy to find at 55, Fawara Chowk near Doulatganj, Kharakua Colony, right in the heart of Ujjain's central marketplace.
           </p>
         </div>
       </div>
@@ -3167,7 +3115,7 @@
         <div class="map-frame-box">
           <iframe 
             title="M/S Best Quality Dryfruits &amp; Masala House Location Map"
-            src="https://maps.google.com/maps?q=55,+Fawara+Chowk,+near+Doulatganj,+Ujjain,+Madhya+Pradesh+456010&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            src="https://maps.google.com/maps?q=55,+Fawara+Chowk,+near+Doulatganj,+Kharakua+Colony,+Ujjain,+Madhya+Pradesh+456010&t=&z=16&ie=UTF8&iwloc=&output=embed" 
             loading="lazy" 
             allowfullscreen 
             referrerpolicy="no-referrer-when-downgrade">
@@ -3284,7 +3232,7 @@
           © 2026 M/S Best Quality Dryfruits &amp; Masala House. All rights reserved.
         </div>
         <div>
-          Fawara Chowk, near Doulatganj, Ujjain, Madhya Pradesh
+          55, Fawara Chowk, near Doulatganj, Kharakua Colony, Ujjain, Madhya Pradesh
         </div>
       </div>
 
@@ -3456,13 +3404,6 @@
       });
     });
   </script>
-
-  <!-- FLOATING NEXORA SCALE WATERMARK -->
-  <a href="https://www.instagram.com/nexora.scale" target="_blank" rel="noopener noreferrer" class="floating-watermark" aria-label="Nexora Scale Instagram">
-    <span class="watermark-dot"></span>
-    <span>Powered by <strong style="color: var(--gold-light);">Nexora Scale</strong></span>
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-  </a>
 
   <script>
     // Resilient automatic image fallback
