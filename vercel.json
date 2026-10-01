@@ -1,5 +1,15 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": ".",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "functions": {
+    "server.js": {
+      "includeFiles": "{*.html,images/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/review",
+      "destination": "/review.html"
+    }
+  ]
 }
